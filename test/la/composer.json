@@ -1,0 +1,11 @@
+{
+	"require-dev": {
+		"laravel/homestead": "^5.2"
+	},
+	"repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
