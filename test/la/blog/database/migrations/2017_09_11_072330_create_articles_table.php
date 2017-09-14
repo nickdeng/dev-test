@@ -20,7 +20,7 @@ class CreateArticlesTable extends Migration
             $table->string('title')->nullable();
             $table->string('thumb')->default('')->nullable();
             $table->integer('category_id')->default('0');
-            $table->integer('user_id');
+            $table->integer('user_id')->default('0');
             $table->text('content')->nullable();
             $table->integer('views')->default('0')->nullable();
             $table->integer('comments')->default('0')->nullable();
